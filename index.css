@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Hanken Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --color-ink: #0e1412;
+  --color-pine: #16201c;
+  --color-moss: #243029;
+  --color-snow: #efe9dc;
+  --color-mist: #a9b2a8;
+  --color-saffron: #e8a33d;
+  --color-flag: #c8553d;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; scrollbar-width: none; }
+  html::-webkit-scrollbar { display: none; }
+  body { background: var(--color-ink); color: var(--color-snow); font-family: var(--font-sans); }
+  ::selection { background: var(--color-saffron); color: var(--color-ink); }
+}

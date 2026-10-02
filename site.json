@@ -1,0 +1,10 @@
+{
+  "description": "Connects travelers and remote workers with serene homestays in Himachal and Uttarakhand, offering peaceful mountain retreats for work and leisure.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
